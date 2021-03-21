@@ -2,10 +2,11 @@
 
 ## Installation
 Link to working site:
+https://valentingarcia-gh.github.io/work-day-scheduler/
 
 ## Repository
 Link to repository:
-
+https://github.com/valentinGarcia-gh/work-day-scheduler
 
 ## Description
 
@@ -41,8 +42,8 @@ THEN the saved events persist
 ## Result
 
 The following animation demonstrates the application functionality:
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/images/05-third-party-apis-homework-demo.gif)
+![A user clicks on slots on the color-coded calendar and edits the events.](./assets/images/05-third-party-apis-homework-demo.gif)
 
 Final Screenshot of the scheduler:
-![schedulerScreenshot](./Assets/images/screenshot.png)
+![schedulerScreenshot](./assets/images/screenshot.png)
 
