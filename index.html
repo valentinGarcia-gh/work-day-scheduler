@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+
+    <div class="container">
+      <br /><br />
+
+      <div id="h9" class="row time-block">
+        <div class="col-sm-1 hour">
+          9AM
+        </div>
+        <textarea id="9" class="col-sm-10 future description" placeholder="Enter text here"></textarea>
+        <button id="9am" class="btn saveBtn col-md-1"><i class="far fa-save fa-lg"></i></button>
+      </div>
+
+      <div id="h10" class="row time-block">
+        <div class="col-sm-1 hour">
+          10AM
+        </div>
+        <textarea id="10" class="col-sm-10 future  description" placeholder="Enter text here"></textarea>
+        <button id="10am" class="btn saveBtn col-md-1"><i class="far fa-save fa-lg"></i></button>
+      </div>
+
+      <div id="h11" class="row time-block">
+        <div class="col-sm-1 hour">
+          11AM
+        </div>
+        <textarea id="11" class="col-sm-10 future description" placeholder="Enter text here"></textarea>
+        <button id="11am" class="btn saveBtn col-md-1"><i class="far fa-save fa-lg"></i></button>
+      </div>
+
+      <div id="h12" class="row time-block">
+        <div class="col-sm-1 hour">
+          12PM
+        </div>
+        <textarea id="12" class="col-sm-10 future description" placeholder="Enter text here"></textarea>
+        <button id="12pm" class="btn saveBtn col-md-1"><i class="far fa-save fa-lg"></i></button>
+      </div>
+
+      <div id="h13" class="row time-block">
+        <div class="col-sm-1 hour">
+          1PM
+        </div>
+        <textarea id="13" class="col-sm-10 future description" placeholder="Enter text here"></textarea>
+        <button id="1pm" class="btn saveBtn col-md-1"><i class="far fa-save fa-lg"></i></button>
+      </div>
+
+      <div id="h14" class="row time-block">
+        <div class="col-sm-1 hour">
+          2PM
+        </div>
+        <textarea id="14" class="col-sm-10 future description" placeholder="Enter text here"></textarea>
+        <button id="2pm" class="btn saveBtn col-md-1"><i class="far fa-save fa-lg"></i></button>
+      </div>
+
+      <div id="h15" class="row time-block">
+        <div class="col-sm-1 hour">
+          3PM
+        </div>
+        <textarea id="15" class="col-sm-10 future description" placeholder="Enter text here"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="far fa-save fa-lg"></i></button>
+      </div>
+
+      <div id="h16" class="row time-block">
+        <div class="col-sm-1 hour">
+          4PM
+        </div>
+        <textarea id="16" class="col-sm-10 future description" placeholder="Enter text here"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="far fa-save fa-lg"></i></button>
+      </div>
+
+      <div id="h17" class="row time-block">
+        <div class="col-sm-1 hour">
+          5PM
+        </div>
+        <textarea id="17" class="col-sm-10 future description" placeholder="Enter text here"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="far fa-save fa-lg"></i></button>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
